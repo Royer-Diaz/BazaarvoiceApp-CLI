@@ -1,0 +1,25 @@
+<div class="page-header">
+  <h1>Dashboard <small>Find the topic you are looking for:</small></h1>
+</div>
+<div class="control-container with-subnav" data-layout-element="control-bar">
+	<ul class="nav nav-tabs">
+	  <li role="presentation" class="dropdown">
+	    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Learn<span class="caret"></span></a>
+	    <ul class="dropdown-menu">
+	      <li>{{#link-to 'home'}}In Progress{{/link-to}}</li>
+	      <li>{{#link-to 'home'}}Completed{{/link-to}}</li>
+	    </ul>
+	  </li>
+	  <li role="presentation" class="dropdown">
+	    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Leaderboards <span class="caret"></span></a>
+	    <ul class="dropdown-menu">
+	      <li>{{#link-to 'home'}}This Month{{/link-to}}</li>
+	      <li>{{#link-to 'home'}}This Week{{/link-to}}</li>
+	    </ul>
+	  </li>
+	</ul>
+</div>
+
+
+{{outlet}}
+

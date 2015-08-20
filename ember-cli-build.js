@@ -3,10 +3,21 @@ var EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
 module.exports = function(defaults) {
   var app = new EmberApp(defaults, {
-    // Add options here
+    
   });
 
   // Use `app.import` to add additional libraries to the generated
+  app.import('bower_components/bootstrap/dist/css/bootstrap.css');
+  app.import('bower_components/bootstrap/dist/css/bootstrap-theme.css');
+  app.import('bower_components/bootstrap/dist/js/bootstrap.js');
+  app.import('bower_components/bootstrap/dist/css/bootstrap.css.map', {
+    destDir: 'assets'
+  });
+  app.import('bower_components/bootstrap/dist/css/bootstrap-theme.css.map', {
+    destDir: 'assets'
+  });
+
+  
   // output files.
   //
   // If you need to use different assets in different
