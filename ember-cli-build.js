@@ -17,6 +17,12 @@ module.exports = function(defaults) {
     destDir: 'assets'
   });
 
+// for glyphicons
+  app.import('bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff', {
+
+  destDir: 'fonts'
+
+  });
   
   // output files.
   //

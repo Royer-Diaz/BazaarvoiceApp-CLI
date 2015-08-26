@@ -24,7 +24,7 @@ Router.map(function() {
       this.resource('documentation');
 	});
   this.resource('post', function(){
-    this.resource('comments');
+    this.route('comments');
   });
 });
 
